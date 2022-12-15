@@ -1,0 +1,150 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#nav1{
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom:10px;
+  float:left;
+  width: 10%;
+  font-family: 'kaushan script', sans-serif;
+  font-size: 18px;
+}
+#nav2{
+  padding-top: 15px;
+  padding-left: 100px;
+  float:left;
+  width: 70%;
+}
+#nav3{
+  padding-top: 25px;
+  float:left;
+  width: 10%;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:rgb(136, 56, 32);
+}
+nav li{
+list-style: none;
+font-family: sans-serif;
+float: left;
+padding-right: 50px;
+color: black;
+}
+nav a{
+text-decoration: none;
+color: black;
+}
+.mtxt{
+float: left;
+background: rgb(189, 127, 127);
+width: 50%;
+text-align: center;
+padding-top: 114px;
+padding-bottom: 120px;
+font-size: 35px;
+font-family: 'kaushan script', sans-serif;
+}
+.mimg{
+float: left;
+background: rgb(189, 127, 127);
+width: 50%;
+padding: 50px 20px 74px 20px;
+}
+.pinkimg{
+width: 650px;
+border-radius: 50px;
+text-align: center;
+border: 10px solid white;
+padding: 5px;
+}
+.ourserv{
+text-decoration: none;
+background: white;
+color:rgb(65, 38, 38);
+padding: 10px;
+border-radius: 20px;
+border: 5px solid black;
+}
+main{
+  clear:both;
+}
+
+.three{
+  clear:both;
+
+float: left;
+width: 30%;
+text-align: center;
+font-family: sans-serif;
+list-style: none;
+padding: 10px 50px 10px 50px;
+}
+.threeimg{
+width: 50px;
+}
+.three2{
+float: left;
+width: 30%;
+text-align: center;
+font-family: sans-serif;
+list-style: none;
+padding: 10px 50px 10px 50px;
+}
+
+.bottomone{
+float: left;
+width: 50%;
+ padding: 144px 50px 173px 50px; 
+text-align: center;
+font-family: sans-serif;
+background: lightgray;
+
+}
+.bottomtwo{
+  float: left;
+  width: 50%;
+  padding: 70px 50px 70px 50px; 
+  text-align: center;
+  font-family: sans-serif;
+  background: lightgray;
+  }
+.btmtwoimg{
+width: 500px;
+border: 5px solid white;
+padding: 5px;
+border-radius: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
